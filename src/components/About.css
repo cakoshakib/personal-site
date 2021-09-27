@@ -1,0 +1,12 @@
+#aboutContainer {
+  margin-top:3%;
+}
+
+#aboutContainer h1 {
+  padding-bottom: 10px;
+}
+
+#aboutContainer li {
+  font-size: 1.1em;
+  padding: 0.5%;
+}

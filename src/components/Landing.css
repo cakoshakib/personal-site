@@ -1,0 +1,40 @@
+#headerContainer {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align:center;
+}
+
+#pfp {
+  display: block;
+  margin: auto;
+  max-width: 40%;
+  height: auto;
+  margin-bottom: 10px;
+  box-shadow: 0px 6px 5px #ccc;
+}
+
+.sub-desc {
+  font-size: 1.1em;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Space Mono';
+}
+
+#name {
+  color: rgb(121, 170, 121);
+}
+
+#college {
+  color: red;
+}
+#headerContainer h3 {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}

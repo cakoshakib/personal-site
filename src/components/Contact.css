@@ -1,0 +1,17 @@
+#contactContainer {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#contactContainer h3 {
+  text-decoration: underline;
+  text-align:center;
+  font-size: 2em;
+  margin: 30px;
+}
+
+p {
+  font-size: 1.2em;
+}

@@ -1,0 +1,27 @@
+.projectTitle {
+  font-weight: bolder;
+  color:rgb(210, 210, 252);
+}
+
+img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  max-width: 90%;
+}
+
+.row {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.projectDesc {
+  font-size: 1em;
+}
+
+#projectsContainer h1 {
+  text-align:center; 
+  margin-top: 20px;
+  font-size: 2.5em;
+}
