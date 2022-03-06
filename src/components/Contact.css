@@ -5,13 +5,41 @@
   transform: translate(-50%, -50%);
 }
 
-#contactContainer h3 {
-  text-decoration: underline;
+#contactContainer h1 {
   text-align:center;
   font-size: 2em;
   margin: 30px;
+  color: rgb(235, 235, 235);
 }
 
-p {
+#contactContainer p {
   font-size: 1.2em;
+}
+
+#discord {
+  color: rgb(86, 98, 246);
+}
+
+#email {
+  color: rgb(91, 172, 66);
+}
+
+#linkedin {
+  color: rgb(0, 115, 178);
+}
+
+#github {
+  color: #F4CBB2;
+}
+
+@media (max-width: 420px) {
+  #contactContainer p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media (max-width: 300px) {
+  #contactContainer p {
+    word-break: all;
+  }
 }

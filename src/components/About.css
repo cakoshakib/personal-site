@@ -4,9 +4,14 @@
 
 #aboutContainer h1 {
   padding-bottom: 10px;
+  color: rgb(235, 235, 235);
 }
 
 #aboutContainer li {
   font-size: 1.1em;
   padding: 0.5%;
+}
+
+#aboutContainer a {
+  color: rgb(97, 188, 248);
 }
