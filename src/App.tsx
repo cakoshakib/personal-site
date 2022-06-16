@@ -83,7 +83,7 @@ const App = () => {
                 <Link to="/projects">Projects</Link>
               </Nav.Link>
               <Nav.Link href="#" as="span">
-                <a href="https://drive.google.com/file/d/1Y-PxhRrDg8sWTGkHzuBuIN06nxA8Qd9Z/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/162OgcVDWeylfIV-lOUOwhgC_IHzifI2C/view?usp=sharing">
                   Resume
                 </a>
               </Nav.Link>
