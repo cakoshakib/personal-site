@@ -1,5 +1,5 @@
 # Portfolio Website
 
-In Progress
+SPA Portfolio Website built with ReactJS! :heart:
 
-(made with Create-React-App)
+View it here [shakib.dev](https://shakib.dev/)
