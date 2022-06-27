@@ -4,7 +4,12 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import "./App.css";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from "react-router-dom";
 
 import { Navbar, Nav } from "react-bootstrap";
 
@@ -82,8 +87,8 @@ const App = () => {
               <Nav.Link href="/projects" as="span">
                 <Link to="/projects">Projects</Link>
               </Nav.Link>
-              <Nav.Link href="#" as="span">
-                <a href="https://drive.google.com/file/d/162OgcVDWeylfIV-lOUOwhgC_IHzifI2C/view?usp=sharing">
+              <Nav.Link href="/resume" as="span">
+                <a href="https://drive.google.com/file/d/162OgcVDWeylfIV-lOUOwhgC_IHzifI2C/view">
                   Resume
                 </a>
               </Nav.Link>
@@ -105,6 +110,14 @@ const App = () => {
               <Contact />
             </div>
           </Route>
+          <Route
+            path="/resume"
+            component={() => {
+              window.location.href =
+                "https://drive.google.com/file/d/162OgcVDWeylfIV-lOUOwhgC_IHzifI2C/view";
+              return null;
+            }}
+          ></Route>
           <Route path="/">
             <div className="d-flex flex-column min-vh-90 justify-content-center align-items-center">
               <Landing />
