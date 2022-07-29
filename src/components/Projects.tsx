@@ -57,6 +57,12 @@ const Projects = () => {
         typeSpeed={200}
       />
       <Project
+        title="AniTUI"
+        link="https://github.com/cakoshakib/ani-tui"
+        img="https://media.giphy.com/media/4w72Xf19N0MIWpM8aY/giphy.gif"
+        desc="A TUI written in Python to navigate through user's downloaded anime! Uses regex parsing to filter out unwanted file details in name. Links with VLC-Ani-Discord to launch both VLC and script at once. Calls AniList GraphQL API to pull watch list information. Published package on PyPi."
+      />
+      <Project
         title="Wenda"
         link="https://github.com/cakoshakib/wenda"
         img="https://i.imgur.com/dMwBULo.gif"
@@ -66,7 +72,7 @@ const Projects = () => {
         title="VLC - Ani - Discord"
         link="https://github.com/cakoshakib/vlc-ani-discord"
         img="https://i.imgur.com/Kn5tsmP.gif"
-        desc="A quality of life/automation tool for Anime watchers using VLC Media Player. The tool scrapes and then parses VLC metadata. Using the data, it displays  rich presence status text on Discord. Upon completion of the playback it automatically updates AniList progress using their GraphQL API."
+        desc="A quality of life/automation tool for anime watchers using VLC Media Player. The tool scrapes and then parses VLC metadata. Using the data, it displays  rich presence status text on Discord. Upon completion of the playback it automatically updates AniList progress using their GraphQL API."
       />
       <Project
         title="Wrind"
@@ -97,3 +103,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
