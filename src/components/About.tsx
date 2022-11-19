@@ -35,7 +35,7 @@ const About = () => {
         </li>
         <li>I am currently working on...</li>
         <ul>
-          <li>Working @ Verisk</li>
+          <li>TCS Research @ Aresty</li>
           <li>
             Building <a href="https://github.com/cakoshakib/ani-tui">AniTUI</a>
           </li>
