@@ -31,13 +31,13 @@ const About = () => {
         </li>
         <li>
           My favorite languages are <b>Java/TypeScript</b>, <b>Python</b>, and{" "}
-          <b>C++</b>.
+          <b>Golang</b>.
         </li>
         <li>I am currently working on...</li>
         <ul>
           <li>TCS Research @ Aresty</li>
           <li>
-            Building <a href="https://github.com/cakoshakib/ani-tui">AniTUI</a>
+            Building <a href="https://github.com/ProjectWenda/wenda-backend">Wenda</a>
           </li>
           <li>Practicing Competitive Programming.</li>
         </ul>
