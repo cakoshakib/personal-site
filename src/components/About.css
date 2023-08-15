@@ -15,3 +15,7 @@
 #aboutContainer a {
   color: rgb(97, 188, 248);
 }
+
+#aboutContainer .react-typewriter-text {
+  min-height: 75px;
+}

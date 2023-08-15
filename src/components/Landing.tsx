@@ -14,7 +14,7 @@ const Description = () => {
     <div>
       <h3 className="sub-desc">
         {" "}
-        Junior at <span id="college"> Rutgers University</span>{" "}
+        Senior at <span id="college"> Rutgers University</span>{" "}
       </h3>
       <h3 className="sub-desc"> Computer Science and Mathematics </h3>
     </div>

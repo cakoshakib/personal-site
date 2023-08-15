@@ -32,6 +32,10 @@
   color: #F4CBB2;
 }
 
+#contactContainer .react-typewriter-text {
+  min-height: 40px;
+}
+
 @media (max-width: 420px) {
   #contactContainer p {
     margin-left: 5%;
