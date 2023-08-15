@@ -9,8 +9,8 @@ const Contact = () => {
         startDelay={50}
         cursorColor="black"
         multiText={["How to Reach Me"]}
-        multiTextDelay={300}
-        typeSpeed={200}
+        multiTextDelay={200}
+        typeSpeed={150}
       />
       <p>
         <span id="email">E-mail</span>: shakib.imp (at) gmail (dot) com

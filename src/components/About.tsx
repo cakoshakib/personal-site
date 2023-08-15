@@ -26,7 +26,7 @@ const About = () => {
           .
         </li>
         <li>
-          I am broadly interested in <b>distributed systems</b> and scaling <b>production infrastructure</b>{" "}
+          I am broadly interested in <b>distributed systems</b> and scaling <b>production infrastructure</b>.{" "}
         </li>
         <li>
           My favorite languages are <b>TypeScript</b>, <b>Python</b>, and{" "}
@@ -41,7 +41,7 @@ const About = () => {
         </ul>
         <li>
           In my free time I enjoy chatting with friends, playing video games,
-          watching anime, and working on personal projects!
+          watching anime, and working on fun projects!
         </li>
       </ul>
     </div>

@@ -57,6 +57,12 @@ const Projects = () => {
         typeSpeed={200}
       />
       <Project
+        title="Wenda 2.0"
+        link="https://github.com/ProjectWenda"
+        img="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXg0OWQ2OHk3YXlnazV2dXphdTRpd2EyZ294NWJtZWVud2JjbXltaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U5EcvwN9CE8CrGeVXt/giphy.gif"
+        desc="An online productivity manager with built-in Discord integration. Built for scale with a serverless backend architecture using AWS Lambda and DynamoDB. Web frontend written in ReactJS, hosted on AWS S3, and distributed with Cloudfront."
+      />
+      <Project
         title="AniTUI"
         link="https://github.com/cakoshakib/ani-tui"
         img="https://media.giphy.com/media/4w72Xf19N0MIWpM8aY/giphy.gif"
@@ -66,7 +72,7 @@ const Projects = () => {
         title="Wenda"
         link="https://github.com/cakoshakib/wenda"
         img="https://i.imgur.com/dMwBULo.gif"
-        desc="A productivity manager with the goal of security and efficiency. Capable of tracking the users weekly agenda, dates, and todos. It was written in TypeScript with ElectronJS. Uses ReactJS for the front-end and responsive design. Wenda stores data persistently in local JSON storage, leaving the users data in their own hands."
+        desc="An offline productivity manager with the goal of security and efficiency. Capable of tracking the users weekly agenda, dates, and todos. Responsive application frontend written in React + TypeScript with ElectronJS. Data stored persistently in local JSON storage, leaving the users data in their own hands."
       />
       <Project
         title="VLC - Ani - Discord"
@@ -78,13 +84,13 @@ const Projects = () => {
         title="Wrind"
         link="https://github.com/rosalogia/wrind"
         img="https://i.imgur.com/l76pHow.gif"
-        desc="This was a project created for HackRU Fall 2020. It ended up winning Best UI/UX! The premise of the project was to help foreign language learners practice their chosen language by allowing them to easily have flashcards made based on a chosen media input. I was in charge of the front end, linking up the backend, and webscraping data to convert into readable csv files."
+        desc="Web application made for HackRU Fall 2020. It ended up winning Best UI/UX! The premise of the project was to help foreign language learners practice their chosen language by allowing them to easily have flashcards made based on a chosen media input. I was in charge of the front end, linking up the backend, and webscraping data to convert into readable csv files."
       />
       <Project
         title="Late Bus Sign Up App"
         link="https://github.com/nbthstech/late-bus-signup"
         img="https://i.imgur.com/ao6y6bd.png"
-        desc="This project was created for my high school. It is a web app that allows the students of the school to sign up for the late bus digitally--improving from the antiquated handwritten procedure. It is currently used across the school (2000 students!)."
+        desc="Project created for my high school. It is a web app that allows the students of the school to sign up for the late bus digitally--improving from the antiquated handwritten procedure. It is currently used across the school (2000 students!)."
       />
       <Project
         title="Tech Club Website"
