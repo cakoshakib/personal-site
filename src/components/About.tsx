@@ -14,33 +14,32 @@ const About = () => {
         />
       </div>
       <h2>
-        My name is <span id="name">Shakib</span>, here is a little about me!
+        I'm <span id="name">Shakib</span>, here is a little about me!
       </h2>
       <ul>
         <li>
-          Currently a Senior at{" "}
-          <span id="college">Rutgers University New Brunswick</span>.
+          Currently a full-time Software Engineer!
         </li>
         <li>
-          I am double majoring in <b>Computer Science</b> and <b>Mathematics</b>
+          I studied <b>Computer Science</b> and <b>Mathematics</b> at <span id="college">Rutgers</span>
           .
         </li>
         <li>
           I am broadly interested in <b>distributed systems</b> and scaling <b>production infrastructure</b>.{" "}
         </li>
         <li>
-          My favorite languages are <b>TypeScript</b>, <b>Python</b>, and{" "}
-          <b>Golang</b>.
+          My favorite languages are <b>Golang</b>, <b>Python</b>, and{" "}
+          <b>TypeScript</b>.
         </li>
         <li>I am currently working on...</li>
         <ul>
           <li>
-            Building <a href="https://github.com/ProjectWenda/wenda-backend">Wenda</a>
+            Getting used to full-time work
           </li>
-          <li>Practicing Competitive Programming.</li>
+          <li>Maintaining algorithms knowledge (join me in doing the LeetCode daily :D)</li>
         </ul>
         <li>
-          In my free time I enjoy chatting with friends, playing video games,
+          In my free time I enjoy playing video games,
           watching anime, and working on fun projects!
         </li>
       </ul>

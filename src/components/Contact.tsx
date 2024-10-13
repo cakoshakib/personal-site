@@ -5,13 +5,7 @@ import TypeWriterEffect from "react-typewriter-effect";
 const Contact = () => {
   return (
     <div id="contactContainer">
-      <TypeWriterEffect
-        startDelay={50}
-        cursorColor="black"
-        multiText={["How to Reach Me"]}
-        multiTextDelay={200}
-        typeSpeed={150}
-      />
+      <h1>How to Reach Me</h1>
       <p>
         <span id="email">E-mail</span>: shakib.imp (at) gmail (dot) com
       </p>
@@ -26,9 +20,6 @@ const Contact = () => {
         <a href="https://github.com/cakoshakib">
           https://github.com/cakoshakib
         </a>
-      </p>
-      <p>
-        <span id="discord">Discord</span>: Impact#8246
       </p>
     </div>
   );

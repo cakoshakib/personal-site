@@ -49,13 +49,7 @@ const Project = ({
 const Projects = () => {
   return (
     <div id="projectsContainer">
-      <TypeWriterEffect
-        startDelay={50}
-        cursorColor="black"
-        multiText={["Projects"]}
-        multiTextDelay={300}
-        typeSpeed={200}
-      />
+      <h1>Projects</h1>
       <Project
         title="Wenda 2.0"
         link="https://github.com/ProjectWenda"
