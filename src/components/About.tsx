@@ -18,7 +18,7 @@ const About = () => {
       </h2>
       <ul>
         <li>
-          Currently a full-time Software Engineer!
+          Currently a full-time Software Engineer in NYC!
         </li>
         <li>
           I studied <b>Computer Science</b> and <b>Mathematics</b> at <span id="college">Rutgers</span>
@@ -34,9 +34,9 @@ const About = () => {
         <li>I am currently working on...</li>
         <ul>
           <li>
-            Getting used to full-time work
+            Infrastructure at Palantir
           </li>
-          <li>Maintaining algorithms knowledge (join me in doing the LeetCode daily :D)</li>
+          <li>Maintaining algorithms knowledge (join me in doing the <a href="https://leetcode.com/u/cakoshakib/">LeetCode</a> daily :D)</li>
         </ul>
         <li>
           In my free time I enjoy playing video games,

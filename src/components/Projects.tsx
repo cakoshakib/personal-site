@@ -37,7 +37,9 @@ const Project = ({
   return (
     <div className="row">
       <div className="col-sm">
-        <Image className="mx-auto" src={img} />
+        <div className="image-backdrop">
+          <Image className="mx-auto" src={img} />
+        </div>
       </div>
       <div className="col-sm">
         <Description link={link} title={title} desc={desc} />

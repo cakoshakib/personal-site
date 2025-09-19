@@ -110,8 +110,15 @@ const Navigation = () => {
       variant="dark"
       id="navbar"
     >
-      <Navbar.Brand href="/">Shakib Rahman</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Brand href="/" className="d-flex align-items-center">
+        <span>Shakib Rahman</span>
+      </Navbar.Brand>
+      <Navbar.Toggle 
+        aria-controls="responsive-navbar-nav" 
+        className="custom-navbar-toggle"
+      >
+        <span className="navbar-toggle-icon">⌄</span>
+      </Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/about" as="span">
