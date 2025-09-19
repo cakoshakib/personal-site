@@ -15,15 +15,33 @@ const BackgroundParticles = () => {
     <Particles
       id="tsparticles"
       options={{
-        fpsLimit: 60,
+        fpsLimit: 120,
         interactivity: {
           detectsOn: "canvas",
+          events: {
+            onHover: {
+              enable: true,
+              mode: "bubble",
+            },
+            onDiv: {
+              enable: false,
+            },
+          },
           modes: {
             bubble: {
-              distance: 400,
+              distance: 50,
               duration: 2,
-              opacity: 0.8,
-              size: 40,
+              opacity: 1.0,
+              size: 8,
+              color: {
+                value: "#e0e0e0"
+              }
+            },
+            repulse: {
+              distance: 40,
+              duration: 1.0,
+              factor: 100,
+              speed: 1,
             },
           },
         },
@@ -31,23 +49,40 @@ const BackgroundParticles = () => {
           color: {
             value: "#404040",
           },
+          links: {
+            color: "#404040",
+            distance: 100,
+            enable: true,
+            opacity: 0.3,
+            width: 1,
+          },
           collisions: {
             enable: true,
           },
           move: {
             direction: "none",
             enable: true,
-            outMode: "bounce",
-            random: false,
-            speed: 0.5,
+            outMode: "out",
+            random: true,
+            speed: 0.1,
             straight: false,
+            attract: {
+              enable: false,
+              rotateX: 600,
+              rotateY: 600
+            },
+            bounce: false,
+            spin: {
+              acceleration: 0,
+              enable: false
+            }
           },
           number: {
             density: {
               enable: true,
               value_area: 800,
             },
-            value: 15,
+            value: 30,
           },
           opacity: {
             value: 0.5,
