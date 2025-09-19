@@ -85,11 +85,9 @@ const Navigation = () => {
           <Nav.Link href="/projects" as="span">
             <Link to="/projects">Projects</Link>
           </Nav.Link>
-          {/* <Nav.Link href="/resume" as="span">
-            <a href="https://drive.google.com/file/d/162OgcVDWeylfIV-lOUOwhgC_IHzifI2C/view">
-              Resume
-            </a>
-          </Nav.Link> */}
+          <Nav.Link as="span">
+            <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+          </Nav.Link>
           <Nav.Link href="/contact" as="span">
             <Link to="/contact">Contact</Link>
           </Nav.Link>
@@ -117,14 +115,10 @@ const App = () => {
               <Contact />
             </div>
           </Route>
-          {/* <Route
-            path="/resume"
-            component={() => {
-              window.location.href =
-                "https://drive.google.com/file/d/162OgcVDWeylfIV-lOUOwhgC_IHzifI2C/view";
-              return null;
-            }}
-          ></Route> */}
+          <Route path="/resume" render={() => {
+            window.location.href = "/Resume.pdf";
+            return null;
+          }} />
           <Route path="/">
             <div className="d-flex flex-column min-vh-90 justify-content-center align-items-center">
               <Landing />
