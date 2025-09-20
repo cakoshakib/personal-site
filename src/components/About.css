@@ -1,5 +1,7 @@
 #aboutContainer {
   margin-top:3%;
+  position: relative;
+  z-index: 1;
 }
 
 #aboutContainer h1 {
@@ -18,4 +20,15 @@
 
 #aboutContainer .react-typewriter-text {
   min-height: 75px;
+}
+
+/* Fix for particles background blocking links on About page */
+#tsparticles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
 }
